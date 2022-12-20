@@ -1,0 +1,26 @@
+@media screen and (max-width: 696px) { 
+   .img-desk{
+    visibility: hidden;
+}
+
+.img-mobile{
+    display: inline;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 52px;
+    height: 449px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+
+
+}
+

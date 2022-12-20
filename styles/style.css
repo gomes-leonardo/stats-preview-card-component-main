@@ -1,0 +1,129 @@
+:root{
+    font-size: 62.7%;
+
+    /* Fonts */
+    --first-font:  'Inter', sans-serif;
+    --second-font: 'Lexend Deca', sans-serif;
+
+    /* Colors */
+    --bgcolor: hsl(233, 47%, 7%);
+    --bg-card:hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+
+    --main-heading-stats: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stats-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bgcolor);
+    font-size: 1.6rem;
+    font-family: var(--first-font);
+}
+
+.container{
+    width: 350px;
+    margin: auto;
+    display: flex;
+}
+
+
+
+
+
+main p {
+    color: var(--main-paragraph);
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    margin-bottom: 2.6rem;
+}
+
+
+
+main{
+background-color: var(--bg-card);
+text-align: center;
+padding: 24px;
+border-radius: 0 0 8px 8px;
+
+}
+
+main h1{
+    color: var(--main-heading-stats);
+    margin-bottom: 26px;
+}
+
+#insight{
+    color: var(--soft-violet);
+}
+
+.number-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    margin: auto;
+
+    gap: 3.2rem;
+    
+}
+
+.number-title{
+    font-size: 3.2rem;
+    color: var(--main-heading-stats);
+    font-weight: bolder;
+}
+
+.text-number{
+    text-transform: uppercase;
+    color: var(--stats-heading);
+}
+
+
+@media screen and (min-width:698px) {
+    
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1150px;
+        height: 446px;
+        justify-content: center;
+        margin: 150px auto;
+
+    }
+    main{
+        text-align: start;
+        padding: 60px;
+        border-radius: 8px 0 0 8px;
+        
+        
+    }
+
+    img{
+        border-radius: 0 8px 8px 0;
+    }
+
+
+
+    .number-container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .img-desk{
+        display: inline;
+    }
+
+    .img-mobile{
+        visibility: hidden;
+    }
+}
