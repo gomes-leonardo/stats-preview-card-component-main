@@ -3,6 +3,7 @@
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+https://gomes-leonardo.github.io/stats-preview-card-component-main/
 
 Thanks for checking out this front-end coding challenge.
 
